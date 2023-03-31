@@ -17,15 +17,16 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #000;
   line-height: 1.7;
-  background-image: url(./assets/sky.jpg);
+  background-image: url(./assets/stars.jpg);
 }
 
 .logo {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #0000007d;
-  backdrop-filter: blur(.2rem);
+  background-color: #020024;
+  backdrop-filter: blur(.12rem);
+  background: linear-gradient(180deg, #004e82ae 5%, rgba(0, 213, 255, 0) 30%);
 }
 
 .title_principal {

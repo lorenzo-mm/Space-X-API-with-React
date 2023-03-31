@@ -9,7 +9,8 @@
 .Box {
   background-color: #0000007d;
   backdrop-filter: blur(.15rem);
-  border: 5px double #4d97ffbe;
+  border: 5px double #00558e;
+  background: linear-gradient(180deg, #004e827a 5%, rgba(0, 213, 255, 0) 40%);
   border-radius: 15px;
   padding: 4px;
   margin: 10px;
