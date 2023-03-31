@@ -1,0 +1,58 @@
+.Main {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  max-height: 100vh;
+}
+
+.Box {
+  background-color: #0000007d;
+  backdrop-filter: blur(.15rem);
+  border: 5px double #4d97ffbe;
+  border-radius: 15px;
+  padding: 4px;
+  margin: 10px;
+  height: 150px;
+  width: 1000px;
+}
+
+.Flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  justify-items: center;
+}
+
+.Text {
+  font-size: 18px;
+  margin: 4px 0 0 5px;
+  color: #fff;
+}
+
+
+.Tag {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  width: 70px;
+  padding: 10px;
+  margin: 45px 10px 45px 0;
+}
+
+.Icon {
+  font-size: 16px;
+  margin: 10px 0 0 5px;
+  fill: #fff;
+}
+
+.Description {
+  font-size: 16px;
+  color: #fff;
+  margin: 6px 0 0 5px;
+}
+
+.Button {
+  margin: 25px 0 0 5px;
+  color: #4d97ff;
+}

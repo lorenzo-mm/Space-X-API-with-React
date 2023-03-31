@@ -1,0 +1,44 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(./assets/sky.jpg) no-repeat !important;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #0000007d;
+  backdrop-filter: blur(.2rem);
+}
+
+.title_principal {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.launches {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 1600px;
+}
