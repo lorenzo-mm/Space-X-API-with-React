@@ -18,5 +18,4 @@ export async function getLaunchflightNumber(flightNumber) {
   } catch (error) {
     console.error(error);
   }
-
 }

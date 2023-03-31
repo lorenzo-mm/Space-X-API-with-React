@@ -3,21 +3,21 @@
   display: none;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
   box-sizing: border-box;
-  background: url(./assets/sky.jpg) no-repeat !important;
-  width: 100%;
-  min-height: 100vh;
+  list-style: none;
+  text-decoration: none;
 }
 
-.section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  width: 100%;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  line-height: 1.7;
+  background-image: url(./assets/sky.jpg);
 }
 
 .logo {
@@ -35,10 +35,29 @@ body {
   padding: 10px;
 }
 
-.launches {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  width: 1600px;
+  margin: auto;
+  width: 1200px;
+}
+
+.launches {
+  width: 100%;
+  margin: 0;
+  background-image: linear-gradient(
+    transparent 12%,
+    currentColor 30%,
+    currentColor 70%,
+    transparent 86%,
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+}
+
+.launches p {
+  margin: 20px 0;
+  color: transparent;
 }

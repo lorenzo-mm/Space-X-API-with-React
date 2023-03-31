@@ -13,15 +13,19 @@ function App() {
   }, []);
 
   return (
-    <section className='section'>
+    <section id='homepage'>
       <div className='logo' >
         <Image src={logo} w={300} h={100} />
       </div>
-      <Heading className='title_principal'>SpaceX Launches</Heading>
-      <div className='launches'>
-        {launches.map(launch => (
-            <LaunchItem key={launch.flight_number} {...launch}/>
-        ))}
+      <div>
+        <Heading className='title_principal'>SpaceX Launches</Heading>
+      </div>
+      <div className='container'>
+        <p className='launches'>
+          {launches.map(launch => (
+              <LaunchItem key={launch.flight_number} {...launch}/>
+          ))}
+        </p>
       </div>
     </section>
   );
