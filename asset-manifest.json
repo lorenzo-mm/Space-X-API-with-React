@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Space-X-API-with-React/static/css/main.97d3498b.css",
+    "main.js": "/Space-X-API-with-React/static/js/main.8c2fc3c8.js",
+    "static/media/stars.jpg": "/Space-X-API-with-React/static/media/stars.abec22420eaf8e63cda5.jpg",
+    "index.html": "/Space-X-API-with-React/index.html",
+    "main.97d3498b.css.map": "/Space-X-API-with-React/static/css/main.97d3498b.css.map",
+    "main.8c2fc3c8.js.map": "/Space-X-API-with-React/static/js/main.8c2fc3c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97d3498b.css",
+    "static/js/main.8c2fc3c8.js"
+  ]
+}
